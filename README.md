@@ -12,12 +12,25 @@ Este projeto é um protótipo de um sistema online para gerenciar suas atividade
 
 ## Estrutura do Projeto
 
-.
-├── Modelagem
-│   └── Modelo Entidade Relacionamento Estentido.pdfw
-│   └── Modelo Relacional.pdf
-├── Scripts
-│   ├── Criação da Base de Dados.sql
-│   ├── Inserção dos Dados.sql
-│   ├── dml.sql
-│   └── *.sql
+- `Modelagem/`
+  - `Modelo Entidade Relacionamento Estentido`
+- `Scripts/`
+  - `Criação.sql`
+  - `Inserção.sql`
+  - `Consulta1.sql`
+  - `Consulta2.sql`
+  - `Consulta3.sql`
+  - `Consulta4.sql`
+  - `Consulta5.sql`
+  - `Consulta6.sql`
+  - `Consulta7.sql`
+  - `Indice1.sql`
+  - `Indice2.sql`
+  - `Indice3.sql`
+  - `View1.sql`
+  - `View2.sql`
+  - `View3.sql` 
+
+
+
+
