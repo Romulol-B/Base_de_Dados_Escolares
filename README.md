@@ -9,3 +9,15 @@ Projeto feito por:
 - Rui Emanuel Lima Vieira - 11810182 (Representante)
 
 Este projeto é um protótipo de um sistema online para gerenciar suas atividades acadêmicas e administrativas, facilitando a interação entre alunos, professores e a administraçãoo, que interage com um banco de dados PostgreSQL. Ele fornece várias funcionalidades para gerenciar e consultar o banco de dados através de uma interface de linha de comando.
+
+## Estrutura do Projeto
+
+.
+├── Modelagem
+│   └── Modelo Entidade Relacionamento Estentido.pdfw
+│   └── Modelo Relacional.pdf
+├── Scripts
+│   ├── Criação da Base de Dados.sql
+│   ├── Inserção dos Dados.sql
+│   ├── dml.sql
+│   └── *.sql
