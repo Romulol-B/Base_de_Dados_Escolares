@@ -10,10 +10,8 @@ Projeto feito por:
 
 Este projeto é um protótipo de um sistema online para gerenciar suas atividades acadêmicas e administrativas, facilitando a interação entre alunos, professores e a administraçãoo, que interage com um banco de dados PostgreSQL. Ele fornece várias funcionalidades para gerenciar e consultar o banco de dados através de uma interface de linha de comando.
 
-## Estrutura do Projeto
+## Estrutura
 
-- `Modelagem/`
-  - `Modelo Entidade Relacionamento Estentido`
 - `Scripts/`
   - `Criação.sql`
   - `Inserção.sql`
