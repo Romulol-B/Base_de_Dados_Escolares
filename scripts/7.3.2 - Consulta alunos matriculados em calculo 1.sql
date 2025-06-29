@@ -1,10 +1,6 @@
--- ==================================================================================
 -- 7.3 - Consulta alunos matriculados em calculo 1.sql
 -- Objetivo: Listar todos os alunos matriculados em uma disciplina específica em um determinado período.
--- Correções:
--- 1. O JOIN foi reestruturado para seguir o novo caminho: Usuario -> Aluno -> Matriculas -> Turmas -> Disciplina.
--- 2. A condição de 'PeriodoLetivo' foi movida para a tabela 'Turmas'.
--- ==================================================================================
+
 SELECT
     u.Nome,
     u.Sobrenome,
