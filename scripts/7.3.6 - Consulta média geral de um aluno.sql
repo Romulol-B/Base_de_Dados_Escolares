@@ -1,9 +1,6 @@
--- ==================================================================================
 -- 7.3 - Consulta média geral de um aluno.sql
 -- Objetivo: Calcular a média geral das notas de um aluno específico.
--- Correções:
--- 1. A tabela 'Desempenho' foi substituída pela tabela 'Matriculas', que agora contém a coluna 'Nota'.
--- ==================================================================================
+
 SELECT
     u.Nome,
     u.Sobrenome,
