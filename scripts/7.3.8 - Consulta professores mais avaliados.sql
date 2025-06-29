@@ -1,10 +1,6 @@
--- ==================================================================================
 -- 7.3 - Consulta professores mais avaliados.sql
 -- Objetivo: Listar os professores com base na média de suas avaliações.
--- Correções:
--- 1. A consulta foi refeita para usar as novas tabelas de avaliação ('Avaliacao', 'AvaliacaoProfessor').
--- 2. A média agora é calculada apenas com a 'NotaDidatica', pois é a única nota diretamente associada ao professor no novo esquema.
--- ==================================================================================
+
 SELECT
     u.Nome,
     u.Sobrenome,
