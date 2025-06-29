@@ -1,10 +1,6 @@
--- ==================================================================================
 -- 7.3 - Consulta alunos matriculado.sql 
--- Objetivo Real: Listar os cursos que NÃO TIVERAM matrículas em um período letivo.
--- Correções:
--- 1. A subconsulta foi ajustada para navegar pela nova estrutura de tabelas: Matriculas -> Turmas -> Disciplina -> Disciplina_Curso.
--- 2. Nomes de colunas e tabelas atualizados.
--- ==================================================================================
+-- Objetivo: Listar os cursos que NÃO TIVERAM matrículas em um período letivo.
+
 SELECT
     c.Nome_Curso,
     c.NivelEnsino
