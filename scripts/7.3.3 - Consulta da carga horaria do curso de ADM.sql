@@ -1,6 +1,5 @@
 -- 7.3 - Consulta da carga horaria do curso de ADM.sql
 -- Objetivo: Consultar a carga horária total de um curso específico.
--- Correções:
 
 SELECT
     c.Nome_Curso,
