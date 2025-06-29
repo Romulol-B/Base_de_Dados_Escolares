@@ -1,11 +1,6 @@
--- ==================================================================================
 -- 7.3 - Consulta da quantidade de alunos matriculado por curso.sql
 -- Objetivo: Contar quantos alunos estão matriculados em cada curso.
--- Correções:
--- 1. O JOIN foi reestruturado para o novo caminho: Curso -> Disciplina_Curso -> Disciplina -> Turmas -> Matriculas.
--- 2. Nomes das colunas atualizados ('Nome_Curso', 'NivelEnsino').
--- ==================================================================================
-SELECT
+
     c.Nome_Curso,
     c.NivelEnsino,
     COUNT(DISTINCT m.ID_Aluno) AS Total_Alunos_Matriculados -- Usando DISTINCT para não contar o mesmo aluno várias vezes no mesmo curso.
